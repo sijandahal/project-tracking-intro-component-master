@@ -1,0 +1,40 @@
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  color : #fff;
+  text-transform: uppercase;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+
+}
+
+.small-btn {
+  background-color: $Very-Dark-Blue;
+  padding: 5px 13px;
+  margin-right: 20px;
+  border-radius : 20px;
+}
+
+.buttons {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  &__large-btn {
+    background-color: $color-primary-red;
+    color : $secondary-light-grayish-blue; 
+    font-weight: 700;
+    padding: 10px 23px;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    margin-right: 25px;
+
+    &:hover {
+      background-color : rgba($color:$color-primary-red, $alpha: 0.8) ;
+    }
+  }
+}
+
+

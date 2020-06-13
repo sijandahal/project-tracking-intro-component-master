@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700&display=swap');
+
+h3 {
+  letter-spacing: 3px;
+  color : $secondary-grayish-blue;
+  font-weight: 400;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 55px;
+  color : $Very-Dark-Blue;
+  margin-bottom: 20px;
+}
+
+p {
+  font-family: 'Barlow', sans-serif;
+  font-size : 16px;
+}
+
+span {
+  display: block;
+}
